@@ -6,7 +6,7 @@ const generarRankingFinal2 = (participantes) => {
         .map(p => ({ nombreUsuario: p.nombreUsuario, puntajeFinal: p.puntajeFinal }));
 };
 
-// Ejemplo de prueba:
+
 const participantes = [
     { nombreUsuario: "NeoMata", puntajeFinal: 1200, nivel: 8, esHack: true },
     { nombreUsuario: "Alpha7", puntajeFinal: 2500, nivel: 10, esHack: true },
