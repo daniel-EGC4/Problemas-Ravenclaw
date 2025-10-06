@@ -1,11 +1,12 @@
-const likes = [150, 90, 1200, 300, 250]
-const comentarios = [10, 5, 50, 15, 12]
+const perfil = {
+    id: "U35A",
+    nombre: "Ana Martinez",
+    email: "ana.m@ejemplo.com",
+    configuracion: { tema: "oscuro", notificaciones: true },
+    fechacreacion: "2024-09-01"
+};
 
-analizarinteracciones = (likes, comentarios) => {
-    const todosAltos = likes.every(like => like >= 100)
-    const viral = likes.find(like => like >= 1000)
-    return { todosAltos, viral }
-}
-
-const resultado = analizarinteracciones(likes, comentarios)
-console.log(resultado)
+const resultado => (perfil) {
+    let {id, nombre, email} = perfil;
+    return { id, nombre, email };
+};
